@@ -1,0 +1,40 @@
+.user-todo {
+  min-width: 30em;
+  box-shadow: 0 1px 2px 0 rgba(34, 36, 38, .15);
+  padding: 1em;
+  border: 1px solid rgba(34, 36, 38, .15);
+  border-radius: 4px;
+  background-color: #fff;
+  .user-show-position {
+    position: absolute;
+    top: 24px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .prompt-complete-count {
+    position: absolute;
+    top: 32px;
+    left: 36px;
+    width: 20px;
+    height: 20px;
+    background: wheat;
+    text-align: center;
+    border-radius: 50%;
+  }
+  .todoList {
+    height: 33em;
+    overflow: auto;
+    margin-right: -14px;
+  }
+  .sign-up-right {
+    position: absolute;
+    top: 18px;
+    right: 23px;
+  }
+}
+
+
+
+
+
+

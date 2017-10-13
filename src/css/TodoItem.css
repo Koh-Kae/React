@@ -1,0 +1,14 @@
+.TodoItem {
+  padding: .5em;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eee; }
+  .TodoItem .title {
+    width: 309px;
+    flex-grow: 1;
+    padding: 0 .5em; }
+  .TodoItem .completed {
+    text-decoration: line-through;
+    color: #ccc; }
+
+/*# sourceMappingURL=TodoItem.css.map */
